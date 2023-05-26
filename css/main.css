@@ -65,9 +65,23 @@ p{
 
 .home-link{
     background-color: #760413;
+    color: #D9D9D9;
+    font-weight: bold;
+    filter: drop-shadow();
+
     padding: 3vh 10vw;
     margin: 1em;
     font-size: 32px;
+
+    transition: 0.1s;
+}
+
+.home-link:hover{
+    background-color: #8F141B;
+    color: #FF7F11;
+    filter: drop-shadow(0.5em 0.5em 1px #d9d9d913);
+
+    margin: 0.75em 1.25em 1.25em 0.75em;
 }
 
 /* ABOUT */
@@ -122,6 +136,17 @@ p{
     margin: 1.68% 16% 1.6% 16%;
 }
 
+.imagebutton{
+    margin: 0.2em;
+    width: 50px;
+    transition: 0.2s;
+    filter: saturate(0);
+}
+
+.imagebutton:hover{
+    filter: saturate(100%);
+}
+
 /* CONTACT */
 
 .contact-grid{
@@ -134,84 +159,3 @@ p{
     display: grid;
     justify-content: center;
 }
-
-/* .about-flex{
-    margin: 10vh 2vw 0 10vh;
-}
-
-.about-tech{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-
-} */
-
-/* .home-right{
-    /* margin: 10vh 10vw; */
-    /* flex: 1;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-} */
-
-/* .home{
-    padding: 25vh 0 25vh 0;
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-    justify-content: center;
-    justify-items: stretch;
-}
-
-.home-left{
-    grid-column: 1;
-    display: grid;
-    align-content: center;
-    align-items: center;
-    justify-self: center;
-}
-
-.home-right{
-    grid-column: 2;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-
-}
-
-.home-link{
-    background: #760413;
-    width: 50%;
-    padding: 0.5em;
-    font-size: 32px;
-} */
-
-/* .main-border{
-    margin: 3% 6% 3% 6%;
-    /* top: 3%;
-    left: 50%;
-    right: 50%;
-    bottom: 3%; */
-
-/*     
-    border: 5px solid #D9D9D9;
-    color: #FFFFFF;
-    position: absolute;
-    overflow-y: scroll;
-} */
-
-/* a 2x1 grid where column 1 stores the welcome message and column 2 is separated into 3 evenly spaced buttons */
-/* .home{
-    display: grid;
-    grid-template-columns: 2;
-}
-
-.home-left{
-    grid-column: 1;
-}
-
-.home-right{
-    grid-column: 2;
-} */
-
