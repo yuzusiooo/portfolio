@@ -167,8 +167,8 @@ p{
 }
 
 .contactmethod{
-    background-color: #760413;
-    color:#D9D9D9;
+    background-color: #76041300;
+    color: #34009c;
 
     flex: 1;
     width: 100%;
@@ -184,6 +184,6 @@ p{
     padding: 2em;
     margin: 5px;
 
-    background-color: #D9D9D9;
-    color: #34009c;
+    background-color: #760413;
+    color: #D9D9D9;
 }
