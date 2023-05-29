@@ -1,7 +1,7 @@
 html{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body{
@@ -12,6 +12,7 @@ body{
     max-width: 1680px;
     height: 75vh;
 
+    scroll-behavior: smooth !important;
 }
 
 /* TEXT STYLE */
