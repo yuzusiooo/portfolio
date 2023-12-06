@@ -29,6 +29,14 @@ body {
     place-items: center;
 }
 
+.content-wrapper > p{
+    text-align: center;
+}
+
+.content-wrapper > {
+    margin-bottom: 1em;
+}
+
 @media (max-width: 800px) {
     .subsection-wrapper {
         width: 99%;
@@ -56,6 +64,10 @@ p {
 }
 
 /* MAIN */
+
+.language-switch {
+    float: right;
+}
 
 .wrapper-main-linkbuttons {
     display: flex;
