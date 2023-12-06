@@ -1,0 +1,51 @@
+#project-description{
+    width: 85%;
+}
+
+/* TITLE */
+.project-desc-title > h1, h3{
+    margin-bottom: 0.1em;
+}
+
+
+/* DESCRIPTION */
+.project-desc-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-desc-wrapper > div{
+    margin: 1em;
+}
+
+/* DESCRIPTION - IMAGE */
+.project-desc-image > div{
+    margin: 1em;
+}
+
+.project-desc-image{
+    width: 50%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.project-desc-image-sub{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.project-desc-image-linkimage{
+    width: 100px;
+    filter: saturate(0);
+    transition: 0.2s;
+}
+
+.project-desc-image-linkimage:hover{
+    filter: saturate(100%);
+}
+
+/* DESCRIPTION - TEXT */
+.project-desc-wrapper-text{
+    width: 50%;
+}
