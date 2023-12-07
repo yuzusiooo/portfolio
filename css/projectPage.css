@@ -26,17 +26,34 @@
 .project-desc-image{
     width: 50%;
     display: grid;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 60% auto auto;
+}
+
+.project-desc-image-main > img, video{
+    width: 100%;
+    height: 100%;
 }
 
 .project-desc-image-sub{
-    display: grid;
+    display:flex;
     justify-content: center;
     align-content: center;
 }
 
+.project-desc-image-sub > img{
+    width: 50%;
+}
+
+.project-desc-image-teritary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .project-desc-image-linkimage{
-    width: 100px;
+    height: 100%;
+    max-width: 100px;
     filter: saturate(0);
     transition: 0.2s;
 }

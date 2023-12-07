@@ -156,13 +156,17 @@ p {
     justify-content: center;
     align-content: center;
     margin: 5em;
+    margin-top: 1em;
     margin-bottom: 1em;
-    background-color: #d9d9d900;
+    background-color: #76041350;
     text-decoration: none;
+
+    transition: 0.1s;
 }   
 
 .project-wrapper:hover{
-    background-color: #d9d9d92d;
+    color: #3626A7;
+    background-color: #d9d9d9;
 }
 
 .project-wrapper-image{
